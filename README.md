@@ -8,7 +8,7 @@
 **Table of Contents**
 
 - STAGE 0: Introduction
-    - Background
+    - [Background](https://github.com/imalfunadam/Predict-Customer-Clicked-Ads-Classification-By-Using-Machine-Learning?tab=readme-ov-file#backgorund)
     - Goal
     - Objective
     - Business Metric
