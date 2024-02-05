@@ -9,9 +9,9 @@
 
 - STAGE 0: Introduction
     - [Background](https://github.com/imalfunadam/Predict-Customer-Clicked-Ads-Classification-By-Using-Machine-Learning?tab=readme-ov-file#backgorund)
-    - Goal
-    - Objective
-    - Business Metric
+    - [Goal](https://github.com/imalfunadam/Predict-Customer-Clicked-Ads-Classification-By-Using-Machine-Learning?tab=readme-ov-file#goal)
+    - [Objective](https://github.com/imalfunadam/Predict-Customer-Clicked-Ads-Classification-By-Using-Machine-Learning?tab=readme-ov-file#objective)
+    - [Business Metric](https://github.com/imalfunadam/Predict-Customer-Clicked-Ads-Classification-By-Using-Machine-Learning?tab=readme-ov-file#business-metric)
 - STAGE 1: Exploratory Data Analysis
     - Data Overview
     - Data Quality Assessment
