@@ -67,3 +67,29 @@ Tabel 1 — Deskripsi Fitur
   | City | Kota asal user |
   | Province | Provinsi asal user |
   | Category | Kategori produk yang dikunjungi | 
+
+### Data Quality Assesment
+Penilaian kualitas data (DQA) dilakukan untuk memastikan bahwa data yang digunakan untuk analisis selanjutnya sudah siap dan sesuai dengan kebutuhan analisis. DQA membantu mengidentifikasi dan mengatasi masalah pada data, sehingga hasil analisis menjadi lebih akurat dan andal.
+
+Langkah-langkah:
+
+1. Memeriksa Missing Value:
+    - Menemukan data yang hilang pada setiap fitur.
+    - Menentukan apakah missing value acak atau terpola.
+    - Menghapus data dengan missing value yang signifikan atau mengisi missing value dengan metode yang tepat (misalnya, mean imputation, median imputation, regression imputation).
+2. Memeriksa Duplikasi Data:
+    - Menemukan data yang duplikat (data yang sama muncul lebih dari sekali).
+    - Menghapus data duplikat untuk menghindari bias dalam analisis.
+3. Memeriksa Tipe dan Konsistensi Nilai:
+    - Memastikan bahwa setiap fitur memiliki tipe data yang sesuai (misalnya, numerik, kategorikal).
+    - Memeriksa konsistensi format data (misalnya, tanggal, waktu).
+    - Mengubah format data yang tidak konsisten agar sesuai dengan format yang umum digunakan.
+4. Memeriksa Outlier:
+    - Menemukan data yang jauh dari nilai rata-rata (outlier).
+    - Menentukan apakah outlier valid atau merupakan kesalahan dalam pengumpulan data.
+    - Menghapus outlier yang tidak valid atau menggantinya dengan nilai yang lebih sesuai.
+
+Tabel 2 — Hasil Data Quality Assessment
+  | Data Assesment | Finding | Handling | 
+  | --- | --- | --- |
+  | Missing value | Terdapat missing value pada fitur `Daily Time Spent on Site, Area Income, Daily Internet Usage,` dan `Male.` | - Tipe data numerik: Diatasi dengan imputasi menggunakan nilai median.<br> - Tipe data kategorikal (Age): Diatasi dengan imputasi menggunakan nilai modus.
