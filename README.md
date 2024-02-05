@@ -29,3 +29,24 @@
 Seiring dengan perkembangan zaman, perusahaan dituntut untuk mengoptimalkan metode iklan mereka di platform digital. Hal ini bertujuan untuk menarik calon pelanggan potensial dengan biaya yang minimal. Peningkatan konversi, yang didefinisikan sebagai jumlah pelanggan potensial yang melakukan pembelian setelah mengklik iklan, menjadi fokus utama.
 
 Namun, untuk mencapai tujuan tersebut, perusahaan harus mampu melakukan prediksi click-through rate (CTR) yang akurat. CTR merupakan persentase orang yang mengklik iklan setelah melihatnya. Prediksi CTR yang akurat sangat penting dalam menentukan keberhasilan kampanye iklan digital. Tanpa prediksi yang akurat, perusahaan berpotensi mengeluarkan biaya yang besar tanpa menghasilkan keuntungan yang signifikan.
+
+### Goal
+Membuat model machine learning yang mampu mendeteksi pengguna potensial untuk konversi atau tertarik pada sebuah iklan. Hal ini memungkinkan perusahaan untuk:
+
+- **Mengoptimalkan biaya iklan:** Hanya menargetkan iklan kepada pengguna yang memiliki kemungkinan besar untuk melakukan konversi, sehingga meminimalkan pemborosan anggaran.
+- **Meningkatkan ROI (Return on Investment):** Meningkatkan keuntungan dari investasi iklan dengan menargetkan pengguna yang tepat.
+- **Meningkatkan efektivitas kampanye iklan:** Meningkatkan peluang konversi dengan menargetkan pengguna yang berminat.
+
+### Objective
+1. Prediksi Potensi Klik Iklan:
+    - Membangun model machine learning untuk memprediksi pengguna yang memiliki potensi untuk mengklik iklan dengan akurasi minimal 90%.
+    - Model ini akan membantu perusahaan dalam menargetkan iklan mereka dengan lebih efektif dan meningkatkan ROI (Return on Investment).
+2. Pemahaman Pola Pengguna:
+    - Mengidentifikasi pola dan karakteristik pengguna yang memiliki potensi untuk mengklik iklan.
+    - Insight ini akan membantu perusahaan dalam memahami target audience mereka dengan lebih baik dan mengembangkan strategi iklan yang lebih efektif.
+3. Rekomendasi Bisnis:
+    - Memberikan rekomendasi bisnis berdasarkan hasil analisis dan model.
+    - Rekomendasi ini dapat membantu perusahaan dalam meningkatkan strategi marketing mereka dan mencapai tujuan bisnis mereka.
+
+### Business Metric
+Click-through rate
