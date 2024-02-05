@@ -55,3 +55,15 @@ Click-through rate
 ### Data Overview
 Dataset memiliki 1000 baris dan 9 fitur dengan 1 target. Berikut informasi fitur pada dataset:
 Tabel 1 — Deskripsi Fitur
+  | Fitur | Deskripsi | 
+  | --- | --- | 
+  | Daily Time Spent on Site | Lamanya tinggal di suatu situs (harian) dalam satuan menit |
+  | Age | Umur user dalam satuan tahun |
+  | Area Income | Pendapatan user dalam satuan rupiah |
+  | Daily Internet Usage | Penggunaan internet harian dalam satuan menit |
+  | Male | Gender user |
+  | Timestamp | Kapan user mengunjungi sebuah situs |
+  | Clicked on Ad |	Click atau tidak iklan yang ditampilkan |
+  | City | Kota asal user |
+  | Province | Provinsi asal user |
+  | Category | Kategori produk yang dikunjungi | 
