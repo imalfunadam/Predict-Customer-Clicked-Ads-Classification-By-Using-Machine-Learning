@@ -26,9 +26,9 @@
 ## 📂 STAGE 0: Introduction
 
 ### Backgorund
-Seiring dengan perkembangan zaman, perusahaan dituntut untuk mengoptimalkan metode iklan mereka di platform digital. Hal ini bertujuan untuk menarik calon pelanggan potensial dengan biaya yang minimal. Peningkatan konversi, yang didefinisikan sebagai jumlah pelanggan potensial yang melakukan pembelian setelah mengklik iklan, menjadi fokus utama.
+[^1]:Seiring dengan perkembangan zaman, perusahaan dituntut untuk mengoptimalkan metode iklan mereka di platform digital. Hal ini bertujuan untuk menarik calon pelanggan potensial dengan biaya yang minimal. Peningkatan konversi, yang didefinisikan sebagai jumlah pelanggan potensial yang melakukan pembelian setelah mengklik iklan, menjadi fokus utama.
 
-Namun, untuk mencapai tujuan tersebut, perusahaan harus mampu melakukan prediksi click-through rate (CTR) yang akurat. CTR merupakan persentase orang yang mengklik iklan setelah melihatnya. Prediksi CTR yang akurat sangat penting dalam menentukan keberhasilan kampanye iklan digital. Tanpa prediksi yang akurat, perusahaan berpotensi mengeluarkan biaya yang besar tanpa menghasilkan keuntungan yang signifikan.
+[^2]:Namun, untuk mencapai tujuan tersebut, perusahaan harus mampu melakukan prediksi click-through rate (CTR) yang akurat. CTR merupakan persentase orang yang mengklik iklan setelah melihatnya. Prediksi CTR yang akurat sangat penting dalam menentukan keberhasilan kampanye iklan digital. Tanpa prediksi yang akurat, perusahaan berpotensi mengeluarkan biaya yang besar tanpa menghasilkan keuntungan yang signifikan.
 
 ### Goal
 Membuat model machine learning yang mampu mendeteksi pengguna potensial untuk konversi atau tertarik pada sebuah iklan. Hal ini memungkinkan perusahaan untuk:
@@ -50,3 +50,8 @@ Membuat model machine learning yang mampu mendeteksi pengguna potensial untuk ko
 
 ### Business Metric
 Click-through rate
+
+## 📂 STAGE 1: Exploratory Data Analysis
+### Data Overview
+Dataset memiliki 1000 baris dan 9 fitur dengan 1 target. Berikut informasi fitur pada dataset:
+Tabel 1 — Deskripsi Fitur
