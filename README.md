@@ -113,6 +113,15 @@ Dengan menganalisis informasi ini, kami dapat memahami lebih baik siapa pelangga
 ![Alt text](https://github.com/imalfunadam/Predict-Customer-Clicked-Ads-Classification-By-Using-Machine-Learning/blob/main/assets/plot%20distribusi2.png)
 <h5 align="center">Gambar 1 — Plot Distribusi Daily Internet Usage, Daily Time Spent, dan Age terhadap Clicked on Ads</h5>
 
+Berdasarkan analisis plot Daily Time Spent, ditemukan bahwa **pengguna yang menghabiskan waktu di sebuah situs kurang dari 1 jam memiliki potensi lebih besar untuk mengklik iklan.** Ini mungkin disebabkan oleh keterbukaan mereka dalam mengeksplorasi iklan, seiring dengan waktu yang terbatas di situs, yang membuat mereka lebih mudah tergoda untuk mengeklik iklan.
+
+Dalam analisis Daily Internet Usage, terungkap bahwa **pengguna yang jarang menggunakan internet memiliki potensi lebih besar untuk mengklik iklan dibandingkan dengan mereka yang sering menggunakan internet.** Pengguna yang terbatas dalam penggunaan internet mungkin memiliki tingkat rasa ingin tahu yang lebih tinggi terhadap produk atau layanan yang diiklankan. Hal ini dapat disebabkan oleh kurangnya kebiasaan mereka dalam menjelajahi internet, membuat mereka merasa tertarik untuk mendapatkan informasi lebih lanjut melalui iklan. Selain itu, keterbatasan akses internet juga menjadi faktor yang berpengaruh, di mana pengguna yang jarang menggunakan internet cenderung lebih tertarik untuk mengklik iklan yang menarik guna memperoleh informasi tambahan.
+
+Dalam konteks analisis usia, ditemukan bahwa **pengguna yang lebih tua memiliki potensi lebih besar untuk mengklik iklan.** Fakta ini mungkin karena pengguna internet yang lebih muda lebih terampil dalam menggunakan teknologi dan internet, membuat mereka lebih cenderung mencari informasi dari sumber lain selain iklan. Mereka juga biasanya lebih kritis dalam menilai iklan dan memilih untuk menghindari iklan yang dianggap terlalu mengganggu atau tidak relevan. Di sisi lain, pengguna yang lebih tua mungkin memiliki ketertarikan yang lebih besar terhadap iklan yang sesuai dengan kehidupan sehari-hari mereka, menjadikan mereka lebih mungkin untuk mengklik 
+
+![Alt text](https://github.com/imalfunadam/Predict-Customer-Clicked-Ads-Classification-By-Using-Machine-Learning/blob/main/assets/plot%20distribusi2.png)
+<h5 align="center">Gambar 1 — Plot Distribusi Daily Internet Usage, Daily Time Spent, dan Age terhadap Clicked on Ads</h5>
+
 
 
 
