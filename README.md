@@ -95,3 +95,24 @@ Tabel 2 — Hasil Data Quality Assessment
   | **Missing value** | Terdapat missing value pada fitur `Daily Time Spent on Site, Area Income, Daily Internet Usage,` dan `Male.` | - Tipe data numerik: Diatasi dengan imputasi menggunakan nilai median.<br> - Tipe data kategorikal (Age): Diatasi dengan imputasi menggunakan nilai modus.
   | **Duplikat** | Tidak ada duplikat data. | Tidak diperlukan handling karena tidak ada duplikat data. |
   | **Fitur atau nilai yang tidak sesuai** | - Fitur yang tidak digunakan: **Unnamed: 0** <br> - Tipe data tidak sesuai: `Timestamp` <br> Outlier: Fitur Area `Income` memiliki **outlier**, namun masih dapat ditoleransi.| - Fitur yang tidak digunakan **(Unnamed: 0):** Dihapus dengan drop().<br> - Tipe data tidak sesuai **(Timestamp)**: Diubah tipe datanya menjadi **datetime** dan dapat dilakukan **ekstraksi bulan, minggu, hari, dan jam.**<br> - Outlier (Area Income): Tidak dilakukan handling karena nilai outlier masih dapat ditoleransi. |
+
+### Data Exploration
+
+Analisis Jenis dan Perilaku Pelanggan pada Iklan bertujuan untuk memahami karakteristik dan kebiasaan pelanggan terkait iklan dengan cara yang mudah dipahami oleh semua orang. Dalam analisis ini, kami mengumpulkan dan menyelidiki data tentang siapa pelanggan, apa yang mereka lakukan secara online, dan bagaimana mereka merespons iklan. Fitur yang digunakan dalam analisis ini diantaranya adalah `Daily Internet Usage`, `Daily Time Spent`, dan `Age.`
+
+Data tentang penggunaan internet harian memberikan wawasan tentang sejauh mana pelanggan terlibat dalam aktivitas online. Informasi ini membantu kami mengenali kelompok pelanggan yang lebih aktif online dan menggunakan internet dalam kehidupan sehari-hari mereka.
+
+Selanjutnya, waktu harian yang dihabiskan online mencerminkan seberapa lama pelanggan terlibat dalam konten digital. Ini membantu kami memahami sejauh mana mereka mungkin melihat atau berinteraksi dengan iklan.
+
+Faktor usia juga menjadi pertimbangan penting dalam analisis ini. Usia memberikan petunjuk tentang preferensi dan minat khusus dari kelompok pelanggan. Misalnya, generasi yang lebih muda mungkin lebih terbuka terhadap inovasi teknologi dan aktif di media sosial, sementara generasi yang lebih tua mungkin lebih tertarik pada konten yang relevan dengan kehidupan sehari-hari mereka.
+
+Dengan menganalisis informasi ini, kami dapat memahami lebih baik siapa pelanggan kami, bagaimana mereka berinteraksi dengan dunia digital, dan bagaimana iklan dapat menjadi lebih efektif bagi mereka.
+
+![Alt text](https://github.com/imalfunadam/Analyzing-eCommerce-Business-Performance-with-SQL/blob/main/assets/Hasil%20Analisis%20Tipe%20Pembayaran%20yang%20Digunakan%20Pelanggan.png?raw=true)
+
+![Alt text](https://github.com/imalfunadam/Analyzing-eCommerce-Business-Performance-with-SQL/blob/main/assets/Hasil%20Analisis%20Tipe%20Pembayaran%20yang%20Digunakan%20Pelanggan.png?raw=true)
+<h5 align="center">Gambar 1 — Plot Distribusi Daily Internet Usage, Daily Time Spent, dan Age terhadap Clicked on Ads</h5>
+
+
+
+
