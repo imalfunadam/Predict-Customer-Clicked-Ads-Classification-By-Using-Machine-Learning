@@ -140,6 +140,28 @@ Terdapat juga data menarik bahwa hari **Selasa dan Sabtu memiliki tingkat lalu l
 ![Alt text](https://github.com/imalfunadam/Predict-Customer-Clicked-Ads-Classification-By-Using-Machine-Learning/blob/main/assets/tren%20setiap%20jam.png)
 <h5 align="center">Gambar 4 — Tren Setiap Jam Clicked on Ads</h5>
 
+Analisis berdasarkan waktu jam menunjukkan bahwa terdapat **potensi pengguna untuk mengklik iklan dan memiliki tingkat konversi pembelian yang tinggi pada jam-jam tertentu, yaitu pukul 00.00, 09.00, 11.00, dan 18.00.**
+
+Analisis berdasarkan waktu menunjukkan bahwa terdapat potensi tinggi untuk meningkatkan klik dan konversi iklan pada jam-jam tertentu:
+
+1. **00.00:**
+    - **Asumsi:** Orang-orang lebih santai dan memiliki waktu luang untuk menjelajahi internet.
+    - **Peluang:** Menampilkan iklan menarik untuk meningkatkan kemungkinan klik.
+
+2. **09.00 & 11.00:**
+    - **Asumsi:** Orang-orang memiliki jeda dalam pekerjaan atau mengambil istirahat.
+    - **Peluang:** Menampilkan iklan relevan dan menarik untuk meningkatkan klik dan konversi.
+
+3. 18.00:
+    - **Asumsi:** Orang-orang selesai bekerja dan memiliki waktu luang untuk bersantai dan menjelajahi internet.
+    - **Peluang:** Menampilkan iklan kepada target audiens yang responsif untuk meningkatkan klik dan konversi.
+Dengan memanfaatkan pola waktu ini, perusahaan dapat mengoptimalkan strategi iklan mereka dan meningkatkan efektivitas kampanye pemasaran.
+
+
+
+
+
+
 
 
 
