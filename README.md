@@ -169,6 +169,23 @@ Fitur yang digunakan untuk model.
 ![Alt text](https://github.com/imalfunadam/Predict-Customer-Clicked-Ads-Classification-By-Using-Machine-Learning/blob/main/assets/Fitur%20yang%20digunakan%20untuk%20Model.png)
 <h5 align="center">Gambar 6 — Fitur yang digunakan untuk Model</h5>
 
+## 📂 STAGE 3: Data Modeling and Evaluation
+
+### Model Experiment
+Untuk melakukan prediksi pada klik iklan, dilakukan dua eksperimen yang berbeda. Pada eksperimen pertama, data train default digunakan untuk melatih model. Eksperimen ini memanfaatkan data train dalam bentuk default atau tanpa adanya penyesuaian tambahan. Sementara itu, pada eksperimen kedua, data distandardisasi menggunakan StandardScaler. Hal ini dilakukan karena distribusi data cenderung mendekati normal, sehingga perlu dilakukan standardisasi agar data memiliki skala yang serupa.
+
+Dalam kedua eksperimen ini, matriks akurasi digunakan sebagai metrik evaluasi. Matriks akurasi memberikan gambaran tentang seberapa baik model dapat mengklasifikasikan data dengan benar. Penggunaan matriks akurasi ini dipilih karena jumlah kategori pada target (Clicked on Ads) yang digunakan dalam analisis seimbang, yaitu memiliki jumlah pengguna yang mengklik iklan dan tidak mengklik yang relatif setara.
+
+Pemilihan matriks akurasi dijustifikasi oleh kesetaraan jumlah pengguna yang mengklik iklan dan yang tidak mengklik, sehingga memberikan gambaran yang seimbang tentang kinerja model. Metode evaluasi ini memungkinkan untuk menilai sejauh mana model dapat memprediksi dengan akurat tanpa memihak pada salah satu kelas target.
+
+<h5 align="center">Tabel 1 — Hasil Eksperimen Pertama (Tanpa Standardization)</h5>
+
+![Alt text](https://github.com/imalfunadam/Predict-Customer-Clicked-Ads-Classification-By-Using-Machine-Learning/blob/main/assets/Hasil%20Eksperimen%20Pertama.png)
+
+<h5 align="center">Tabel 2 — Hasil Eksperimen Kedua (Standardization)</h5>
+
+![Alt text](https://github.com/imalfunadam/Predict-Customer-Clicked-Ads-Classification-By-Using-Machine-Learning/blob/main/assets/Hasil%20Eksperimen%20Kedua.png)
+
 
 
 
