@@ -120,7 +120,16 @@ Dalam analisis Daily Internet Usage, terungkap bahwa **pengguna yang jarang meng
 Dalam konteks analisis usia, ditemukan bahwa **pengguna yang lebih tua memiliki potensi lebih besar untuk mengklik iklan.** Fakta ini mungkin karena pengguna internet yang lebih muda lebih terampil dalam menggunakan teknologi dan internet, membuat mereka lebih cenderung mencari informasi dari sumber lain selain iklan. Mereka juga biasanya lebih kritis dalam menilai iklan dan memilih untuk menghindari iklan yang dianggap terlalu mengganggu atau tidak relevan. Di sisi lain, pengguna yang lebih tua mungkin memiliki ketertarikan yang lebih besar terhadap iklan yang sesuai dengan kehidupan sehari-hari mereka, menjadikan mereka lebih mungkin untuk mengklik 
 
 ![Alt text](https://github.com/imalfunadam/Predict-Customer-Clicked-Ads-Classification-By-Using-Machine-Learning/blob/main/assets/Plot%20Korelasi%20.png)
-<h5 align="center">Gambar 1 — Plot Distribusi Daily Internet Usage, Daily Time Spent, dan Age terhadap Clicked on Ads</h5>
+<h5 align="center">Gambar 2 — Plot Korelasi Daily Time Spent on Site dengan Internet Usage terhadap Clicked on Ads</h5>
+
+Dari plot korelasi antara Daily Time Spent on Site dengan Internet Usage terhadap Target, ditemukan bahwa distribusi pengguna dapat dibagi menjadi dua segmen, yaitu pengguna aktif dan non-aktif. **Pengguna aktif cenderung menghabiskan lebih banyak waktu di situs dan lebih terlibat dalam penggunaan internet secara keseluruhan.** Namun, menariknya, **pengguna aktif cenderung tidak terlalu suka mengklik iklan yang ditampilkan.**
+
+Dengan temuan ini, perusahaan dapat **mengoptimalkan sistem iklannya dengan memfokuskan target kepada pengguna non-aktif.** Pengguna non-aktif ini mungkin memiliki waktu yang lebih sedikit dihabiskan di situs dan penggunaan internet secara umum. Oleh karena itu, mereka mungkin lebih rentan terhadap iklan dan memiliki kemungkinan yang lebih tinggi untuk mengklik iklan yang ditampilkan. Dengan memfokuskan strategi iklan kepada pengguna non-aktif, perusahaan dapat meningkatkan efektivitas kampanye iklannya. Hal ini dapat dilakukan dengan menyesuaikan konten iklan agar lebih menarik dan relevan bagi pengguna non-aktif serta memilih situs pemasaran yang tepat untuk mencapai mereka. Dengan melakukan pendekatan yang lebih spesifik terhadap pengguna non-aktif, perusahaan dapat mengoptimalkan sistem iklannya dan meningkatkan peluang untuk mendapatkan respons yang lebih baik dari target audiens yang dituju.
+
+Selanjutnya, **Time Analysis of User Clicks on Ads** digunakan untuk **menganalisis pola waktu pengguna saat mengklik iklan dengan mengidentifikasi tren dan pola yang dapat memberikan insight.** Dengan analisis ini, perusahaan dapat menentukan jam-jam atau periode tertentu di mana pengguna cenderung lebih aktif dalam mengklik iklan dan mengoptimalkan strategi penempatannya. Hal tersebut dilakukan agar dapat mencapai audiens yang lebih responsif dan meningkatkan peluang untuk mendapatkan klik yang lebih banyak. Selain itu, analisis ini juga dapat membantu perusahaan untuk mengalokasikan anggaran iklan dengan lebih efisien dengan mengarahkan sumber daya ke periode waktu yang paling menguntungkan.
+
+![Alt text](https://github.com/imalfunadam/Predict-Customer-Clicked-Ads-Classification-By-Using-Machine-Learning/blob/main/assets/Plot%20Korelasi%20.png)
+<h5 align="center">Gambar 3 — Tren Harian Clicked on Ads</h5>
 
 
 
