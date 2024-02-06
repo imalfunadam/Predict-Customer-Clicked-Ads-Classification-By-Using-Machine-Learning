@@ -128,7 +128,7 @@ Dengan temuan ini, perusahaan dapat **mengoptimalkan sistem iklannya dengan memf
 
 Selanjutnya, **Time Analysis of User Clicks on Ads** digunakan untuk **menganalisis pola waktu pengguna saat mengklik iklan dengan mengidentifikasi tren dan pola yang dapat memberikan insight.** Dengan analisis ini, perusahaan dapat menentukan jam-jam atau periode tertentu di mana pengguna cenderung lebih aktif dalam mengklik iklan dan mengoptimalkan strategi penempatannya. Hal tersebut dilakukan agar dapat mencapai audiens yang lebih responsif dan meningkatkan peluang untuk mendapatkan klik yang lebih banyak. Selain itu, analisis ini juga dapat membantu perusahaan untuk mengalokasikan anggaran iklan dengan lebih efisien dengan mengarahkan sumber daya ke periode waktu yang paling menguntungkan.
 
-![Alt text](https://github.com/imalfunadam/Predict-Customer-Clicked-Ads-Classification-By-Using-Machine-Learning/blob/main/assets/Plot%20Korelasi%20.png)
+![Alt text](https://github.com/imalfunadam/Predict-Customer-Clicked-Ads-Classification-By-Using-Machine-Learning/blob/main/assets/Tren%20Harian.png)
 <h5 align="center">Gambar 3 — Tren Harian Clicked on Ads</h5>
 
 
