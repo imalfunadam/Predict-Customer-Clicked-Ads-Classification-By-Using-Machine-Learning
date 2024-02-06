@@ -157,6 +157,17 @@ Analisis berdasarkan waktu menunjukkan bahwa terdapat potensi tinggi untuk menin
     - **Peluang:** Menampilkan iklan kepada target audiens yang responsif untuk meningkatkan klik dan konversi.
 Dengan memanfaatkan pola waktu ini, perusahaan dapat mengoptimalkan strategi iklan mereka dan meningkatkan efektivitas kampanye pemasaran.
 
+## 📂 STAGE 2: Data Pre-processing
+
+Berikut tahapan-tahapan dalam Data Pre-processing yang telah dilakukan.
+
+![Alt text](https://github.com/imalfunadam/Predict-Customer-Clicked-Ads-Classification-By-Using-Machine-Learning/blob/main/assets/Tahap%20Data%20Pre-processing.png)
+<h5 align="center">Gambar 5 — Tahap Data Pre-processing</h5>
+
+Fitur yang digunakan untuk model.
+![Alt text](https://github.com/imalfunadam/Predict-Customer-Clicked-Ads-Classification-By-Using-Machine-Learning/blob/main/assets/Fitur%20yang%20digunakan%20untuk%20Model.png)
+<h5 align="center">Gambar 6 — Fitur yang digunakan untuk Model</h5>
+
 
 
 
