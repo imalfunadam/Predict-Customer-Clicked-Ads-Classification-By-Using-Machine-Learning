@@ -119,7 +119,7 @@ Dalam analisis Daily Internet Usage, terungkap bahwa **pengguna yang jarang meng
 
 Dalam konteks analisis usia, ditemukan bahwa **pengguna yang lebih tua memiliki potensi lebih besar untuk mengklik iklan.** Fakta ini mungkin karena pengguna internet yang lebih muda lebih terampil dalam menggunakan teknologi dan internet, membuat mereka lebih cenderung mencari informasi dari sumber lain selain iklan. Mereka juga biasanya lebih kritis dalam menilai iklan dan memilih untuk menghindari iklan yang dianggap terlalu mengganggu atau tidak relevan. Di sisi lain, pengguna yang lebih tua mungkin memiliki ketertarikan yang lebih besar terhadap iklan yang sesuai dengan kehidupan sehari-hari mereka, menjadikan mereka lebih mungkin untuk mengklik 
 
-![Alt text](https://github.com/imalfunadam/Predict-Customer-Clicked-Ads-Classification-By-Using-Machine-Learning/blob/main/assets/plot%20distribusi2.png)
+![Alt text](https://github.com/imalfunadam/Predict-Customer-Clicked-Ads-Classification-By-Using-Machine-Learning/blob/main/assets/Plot%20Korelasi%20.png)
 <h5 align="center">Gambar 1 — Plot Distribusi Daily Internet Usage, Daily Time Spent, dan Age terhadap Clicked on Ads</h5>
 
 
