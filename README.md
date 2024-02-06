@@ -162,7 +162,7 @@ Dengan memanfaatkan pola waktu ini, perusahaan dapat mengoptimalkan strategi ikl
 Berikut tahapan-tahapan dalam Data Pre-processing yang telah dilakukan.
 
 ![Alt text](https://github.com/imalfunadam/Predict-Customer-Clicked-Ads-Classification-By-Using-Machine-Learning/blob/main/assets/Tahap%20Data%20Pre-processing.png)
-<h5 align="center">Gambar 5 — Tahap Data Pre-processing</h5>
+<h5 align="center">Gambar 5 — Tahap Data Pre-processing</h5><br>
 
 Fitur yang digunakan untuk model.
 ![Alt text](https://github.com/imalfunadam/Predict-Customer-Clicked-Ads-Classification-By-Using-Machine-Learning/blob/main/assets/Fitur%20yang%20digunakan%20untuk%20Model.png)
