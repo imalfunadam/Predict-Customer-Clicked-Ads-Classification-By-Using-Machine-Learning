@@ -108,9 +108,9 @@ Faktor usia juga menjadi pertimbangan penting dalam analisis ini. Usia memberika
 
 Dengan menganalisis informasi ini, kami dapat memahami lebih baik siapa pelanggan kami, bagaimana mereka berinteraksi dengan dunia digital, dan bagaimana iklan dapat menjadi lebih efektif bagi mereka.
 
-![Alt text](https://github.com/imalfunadam/Analyzing-eCommerce-Business-Performance-with-SQL/blob/main/assets/Hasil%20Analisis%20Tipe%20Pembayaran%20yang%20Digunakan%20Pelanggan.png?raw=true)
+![Alt text](https://github.com/imalfunadam/Predict-Customer-Clicked-Ads-Classification-By-Using-Machine-Learning/blob/main/assets/plot%20distribusi.png) 
 
-![Alt text](https://github.com/imalfunadam/Analyzing-eCommerce-Business-Performance-with-SQL/blob/main/assets/Hasil%20Analisis%20Tipe%20Pembayaran%20yang%20Digunakan%20Pelanggan.png?raw=true)
+![Alt text](https://github.com/imalfunadam/Predict-Customer-Clicked-Ads-Classification-By-Using-Machine-Learning/blob/main/assets/plot%20distribusi2.png)
 <h5 align="center">Gambar 1 — Plot Distribusi Daily Internet Usage, Daily Time Spent, dan Age terhadap Clicked on Ads</h5>
 
 
