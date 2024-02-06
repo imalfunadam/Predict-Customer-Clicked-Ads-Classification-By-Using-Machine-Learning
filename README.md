@@ -19,8 +19,8 @@
 - STAGE 2 : [Data Pre-processing](https://github.com/imalfunadam/Predict-Customer-Clicked-Ads-Classification-By-Using-Machine-Learning/tree/main?tab=readme-ov-file#-stage-2-data-pre-processing)
 - STAGE 3 : [Data Modeling and Evaluation](https://github.com/imalfunadam/Predict-Customer-Clicked-Ads-Classification-By-Using-Machine-Learning/tree/main?tab=readme-ov-file#-stage-3-data-modeling-and-evaluation)
     - [Model Experiment](https://github.com/imalfunadam/Predict-Customer-Clicked-Ads-Classification-By-Using-Machine-Learning/tree/main?tab=readme-ov-file#model-experiment)
-    - Evaluation: [Confussion Matrix](https://github.com/imalfunadam/Predict-Customer-Clicked-Ads-Classification-By-Using-Machine-Learning/tree/main?tab=readme-ov-file#evaluation-confusion-matrix)
-    - Evaluation: [Feature Importance](https://github.com/imalfunadam/Predict-Customer-Clicked-Ads-Classification-By-Using-Machine-Learning/tree/main?tab=readme-ov-file#evaluation-feature-importance)
+    - [Evaluation : Confussion Matrix](https://github.com/imalfunadam/Predict-Customer-Clicked-Ads-Classification-By-Using-Machine-Learning/tree/main?tab=readme-ov-file#evaluation-confusion-matrix)
+    - [Evaluation : Feature Importance](https://github.com/imalfunadam/Predict-Customer-Clicked-Ads-Classification-By-Using-Machine-Learning/tree/main?tab=readme-ov-file#evaluation-feature-importance)
 - STAGE 4 : [Business Recommendation](https://github.com/imalfunadam/Predict-Customer-Clicked-Ads-Classification-By-Using-Machine-Learning/tree/main?tab=readme-ov-file#-stage-4-business-recommendation)
 
 ## 📂 STAGE 0: Introduction
