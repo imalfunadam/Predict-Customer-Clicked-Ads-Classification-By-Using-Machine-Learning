@@ -131,6 +131,20 @@ Selanjutnya, **Time Analysis of User Clicks on Ads** digunakan untuk **menganali
 ![Alt text](https://github.com/imalfunadam/Predict-Customer-Clicked-Ads-Classification-By-Using-Machine-Learning/blob/main/assets/Tren%20Harian.png)
 <h5 align="center">Gambar 3 — Tren Harian Clicked on Ads</h5>
 
+Dalam analisis mengenai perilaku pengguna terhadap klik iklan pada hari-hari tertentu, **terlihat bahwa pengguna cenderung kurang aktif dalam mengklik iklan pada hari Senin dan Jumat.** Hari-hari ini sering dianggap sebagai awal dan akhir minggu kerja, di mana konsentrasi pengguna cenderung lebih terfokus pada pekerjaan dan kurang pada aktivitas online seperti mengklik iklan. Faktor ini dapat menjelaskan mengapa jumlah pengguna yang mengklik iklan pada hari-hari ini cenderung rendah.
+
+Sebaliknya, **pada hari Rabu terlihat adanya konversi klik iklan yang paling baik.** Jumlah pengguna yang mengklik iklan relatif tinggi, sementara jumlah pengguna yang tidak mengklik iklan rendah. Ini mungkin disebabkan oleh fakta bahwa hari Rabu sering dianggap sebagai titik tengah minggu di mana orang merasa lebih rileks dan memiliki lebih banyak waktu untuk menghabiskan waktu online serta melakukan aktivitas seperti berbelanja.
+
+Terdapat juga data menarik bahwa hari **Selasa dan Sabtu memiliki tingkat lalu lintas yang tinggi, dengan sekitar 50% pengguna cenderung mengklik iklan.** Ini menunjukkan bahwa pada hari-hari ini, ada peluang yang cukup baik untuk mencapai pengguna dengan iklan yang relevan. Oleh karena itu, perusahaan dapat memanfaatkan pola ini dengan menyesuaikan strategi iklan mereka untuk lebih efektif pada hari-hari tersebut dan meningkatkan potensi konversi.
+
+![Alt text](https://github.com/imalfunadam/Predict-Customer-Clicked-Ads-Classification-By-Using-Machine-Learning/blob/main/assets/tren%20setiap%20jam.png)
+<h5 align="center">Gambar 4 — Tren Setiap Jam Clicked on Ads</h5>
+
+
+
+
+
+
 
 
 
