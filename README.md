@@ -186,6 +186,75 @@ Pemilihan matriks akurasi dijustifikasi oleh kesetaraan jumlah pengguna yang men
 
 ![Alt text](https://github.com/imalfunadam/Predict-Customer-Clicked-Ads-Classification-By-Using-Machine-Learning/blob/main/assets/Hasil%20Eksperimen%20Kedua.png)
 
+Pada hasil eksperimen, terlihat bahwa algoritma **Random Forest memiliki akurasi tertinggi baik pada eksperimen pertama maupun kedua, dengan nilai akurasi mencapai 96%.** Selain itu, algoritma-algoritma lain seperti Gradient Boosting, XGBoost, dan LGBM juga menunjukkan akurasi yang tinggi pada eksperimen pertama, dengan nilai akurasi sebesar 95%. Pada eksperimen kedua, ketiga algoritma tersebut juga memberikan hasil akurasi yang hampir sama. Menariknya, terlihat bahwa penggunaan metode standardization tidak memberikan perubahan yang signifikan pada nilai akurasi untuk algoritma-algoritma tersebut. Hal ini mengindikasikan bahwa model tidak terlalu sensitif terhadap perbedaan skala fitur dalam data. Dengan kata lain, perbedaan skala fitur tidak memiliki pengaruh yang signifikan pada kinerja model.
+
+Selain itu, algoritma seperti Random Forest, XGBoost, Gradient Boosting, dan LGBM termasuk dalam kategori algoritma yang robust dan memiliki kemampuan yang kuat dalam menangani berbagai jenis data. Mereka dapat menyesuaikan dengan baik terhadap data yang tidak distandardisasi, sehingga tidak memerlukan proses preprocessing yang rumit. Oleh karena itu, nilai akurasi mereka tidak banyak berubah ketika fitur-fitur distandardisasi atau tidak distandardisasi. Hasil ini menunjukkan bahwa algoritma-algoritma tersebut dapat diandalkan dan efektif dalam melakukan prediksi tanpa memerlukan tahap standardisasi yang rumit pada fitur-fitur data.
+
+
+### Evaluation: Confusion Matrix
+![Alt text](https://github.com/imalfunadam/Predict-Customer-Clicked-Ads-Classification-By-Using-Machine-Learning/blob/main/assets/confusionmatrix.png)
+<h5 align="center">Gambar 7 — Confussion Matrix Random Forest</h5>
+
+Berdasarkan model Random Forest, performa model secara mendetail dievaluasi menggunakan confusion matrix. Hasil dari confusion matrix menunjukkan bahwa model Random Forest menunjukkan **performa yang sangat baik dalam memprediksi pengguna yang mengklik iklan atau tidak.** Jumlah kesalahan prediksi, yang terdiri dari False Positive (prediksi salah bahwa pengguna mengklik iklan) dan False Negative (prediksi salah bahwa pengguna tidak mengklik iklan), sangat kecil. Kesalahan prediksi yang minim ini menandakan tingkat akurasi yang tinggi pada model.
+
+Dengan nilai kesalahan prediksi yang kecil, model Random Forest dapat dianggap sebagai model prediksi yang akurat. Hal ini memberikan keyakinan kepada perusahaan untuk menggunakan model ini dalam mengidentifikasi dengan akurat pengguna yang memiliki potensi untuk mengklik iklan. Dengan demikian, perusahaan dapat mengoptimalkan strategi pemasarannya dengan lebih efektif, mengarah pada peningkatan hasil kampanye iklan dan penggunaan sumber daya pemasaran dengan lebih efisien. Model ini dapat menjadi alat yang berharga bagi perusahaan untuk meningkatkan targeting iklan dan memperoleh respons yang lebih baik dari target audiens.
+
+### Evaluation: Feature Importance
+![Alt text](https://github.com/imalfunadam/Predict-Customer-Clicked-Ads-Classification-By-Using-Machine-Learning/blob/main/assets/Feature%20Importance.png)
+<h5 align="center">Gambar 8 — Feature Importance Random Forest</h5>
+
+Analisis Feature Importance digunakan untuk mengidentifikasi fitur yang paling penting dalam membangun model. Dalam analisis menggunakan plot SHAP, beberapa fitur menonjol sebagai pengaruh utama terhadap prediksi klik pada iklan. Fitur-fitur yang menunjukkan pengaruh signifikan antara lain adalah Daily Internet Usage, Daily Time Spent on Site, Area Income, dan Age.
+
+Fitur-fitur seperti **Daily Internet Usage, Daily Time Spent on Site, dan Area Income memiliki korelasi negatif** terhadap klik iklan, ditandai dengan warna merah pada sisi kiri plot. Hal ini menunjukkan bahwa pengguna dengan kebiasaan penggunaan internet yang kurang aktif dan pengguna dengan pendapatan menengah ke bawah memiliki potensi yang lebih tinggi untuk mengklik iklan. Di sisi lain, **fitur Age memiliki korelasi positif** dengan klik iklan. Artinya, semakin tua usia pengguna, semakin tinggi potensi mereka untuk mengklik iklan yang ditampilkan.
+
+Informasi mengenai Feature Importance ini memberikan wawasan berharga untuk mengoptimalkan strategi pemasaran. Dengan mempertimbangkan karakteristik pengguna berdasarkan fitur-fitur yang memiliki pengaruh signifikan dalam model, perusahaan dapat menyusun iklan yang lebih efektif dan lebih sesuai dengan preferensi serta perilaku pengguna.
+
+## 📂 STAGE 4: Business Recommendation
+Rekomendasi berdasarkan Feature Importance dan insight yang telah ditemukan:
+
+#### **Targeting Pengguna Internet Non-Aktif:**
+1. **Iklan Singkat dan Menarik:**
+    - Karena pengguna non-aktif memiliki keterbatasan waktu, penting untuk menciptakan iklan yang singkat dan menarik. Pesan yang padat dan jelas dengan pemilihan kata yang tepat dapat menarik perhatian mereka dalam waktu singkat.
+
+2. **Retargeting:**
+    - Manfaatkan strategi retargeting untuk terus berkomunikasi dengan pengguna non-aktif. Tampilkan iklan yang relevan secara berulang kali di berbagai platform yang mereka kunjungi untuk meningkatkan awareness pengguna.
+
+3. **Konten Relevan:**
+    - Pastikan konten iklan Anda relevan dengan minat dan kebutuhan pengguna non-aktif. Pahami preferensi mereka untuk mengoptimalkan respons terhadap iklan.
+
+#### **Targeting Kelompok Usia di Atas 40 Tahun:**
+1. Kampanye yang Relevan:
+    - Fokuskan kampanye iklan yang memiliki dampak atau relevansi dengan kehidupan dan kebutuhan kelompok usia di atas 40 tahun.
+
+2. Desain Sederhana:
+    - Desain iklan yang mudah dibaca dan sederhana akan lebih efektif untuk kelompok usia di atas 40 tahun.
+
+3. Pilih Platform yang Sesuai:
+    - Gunakan platform iklan yang sesuai, seperti Facebook, karena kelompok usia di atas 40 tahun cenderung lebih sedikit terlibat dalam media sosial dibandingkan dengan kelompok usia yang lebih muda.
+
+#### **Targeting Kelompok Pendapatan Menengah Kebawah:**
+1. Penawaran Harga Terjangkau:
+    - Berikan iklan dengan penawaran harga yang terjangkau dan sesuai dengan anggaran pengguna dalam kisaran. Diskon khusus, bundel, atau harga promo dapat mendorong mereka untuk mengklik iklan.
+
+#### **Optimalisasi Waktu Penayangan Iklan:**
+1. Manfaatkan Hari dan Jam Tertentu:
+    - Manfaatkan hari Rabu yang menunjukkan konversi klik iklan yang baik. Selain itu, tingkat lalu lintas tinggi pada Selasa dan Sabtu dapat dimanfaatkan dengan penayangan iklan yang relevan.
+
+2.  Jadwal Penayangan yang Tepat:
+    - Gunakan jam-jam dengan potensi klik iklan tinggi, seperti pukul 00.00, 09.00, 11.00, dan 18.00. Pastikan iklan ditayangkan secara tepat pada saat-saat tersebut.
+
+#### **Strategi Softselling untuk Pengguna Aktif:**
+1. Pendekatan Softselling:
+    - Jika perusahaan ingin menargetkan kelompok pengguna aktif, strategi iklan dengan pendekatan softselling dapat menjadi pilihan yang efektif. Fokus pada membangun hubungan yang baik dengan calon konsumen dan memberikan informasi bermanfaat tentang produk atau layanan.
+2. Pilih Platform Media Sosial:
+    - Gunakan media sosial sebagai platform penayangan iklan, mengingat kelompok pengguna aktif cenderung menggunakan media sosial secara intensif.
+Dengan mengimplementasikan rekomendasi ini, perusahaan dapat lebih tepat sasaran dalam pemasaran dan meningkatkan efektivitas kampanye iklannya sesuai dengan karakteristik pengguna yang telah diidentifikasi melalui analisis data.
+
+
+
+
+
+
 
 
 
